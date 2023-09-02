@@ -21,6 +21,9 @@
   --page-footer-bgcolor: #2e2f42;
   --foot-logo-part-color: #f4f4fd;
   --foot-text-color: #f4f4fd;
+  --icons-color: #f4f4fd;
+  --hover-social-link-icon-color: #31d0aa;
+  --social-link-icon-bgcolor: #404bbf;
   --body-font-family: 'Roboto', sans-serif;
   --logo-font-family: 'Raleway', sans-serif;
 }
@@ -369,16 +372,8 @@ body {
   gap: 24px;
 }
 
-/* .team-social-item {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #4d5ae5;
-  
-} */
-
 .team-svg {
-  fill: #f4f4fd;
+  fill: var(--icons-color);
 }
 
 .team-social-link {
@@ -386,7 +381,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #4d5ae5;
+  background-color: var(--social-link-icon-bgcolor);
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -395,7 +390,7 @@ body {
 
 .team-social-link:hover,
 .team-social-link:focus {
-  background-color: #31d0aa;
+  background-color: var(--hover-social-link-icon-color);
 }
 /* Секція portfolio */
 
@@ -535,7 +530,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #4d5ae5;
+  background-color: var(--social-link-icon-bgcolor);
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -546,9 +541,9 @@ body {
 
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
-  background-color: #31d0aa;
+  background-color: var(--hover-social-link-icon-color);
 }
 
 .footer-svg {
-  fill: #f4f4fd;
+  fill: var(--icons-color);
 }
