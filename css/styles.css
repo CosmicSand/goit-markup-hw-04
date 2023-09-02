@@ -150,6 +150,7 @@ body {
 
 .menu-list-item:nth-child(1) {
   position: relative;
+  color: #404bbf; /* Зміна кольору першого посилання */
 }
 
 .menu-list-item::after {
