@@ -368,22 +368,34 @@ body {
   gap: 24px;
 }
 
-.team-social-item {
+/* .team-social-item {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  
+} */
 
 .team-svg {
   fill: #f4f4fd;
 }
-/* .team-social-link {
- 
-} */
+
+.team-social-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  flex-shrink: 0;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #31d0aa;
+}
 /* Секція portfolio */
 
 .portfolio {
