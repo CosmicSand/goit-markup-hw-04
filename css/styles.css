@@ -161,9 +161,14 @@ body {
 .menu-list-link:focus {
   color: var(--menu-list-link-hover-color);
 }
+
 .menu-list-item:nth-child(1) .menu-list-link {
   position: relative;
   color: #404bbf; /* Зміна кольору першого посилання */
+}
+
+.menu-list-item:nth-child(1) {
+  position: relative;
 }
 
 .menu-list-item::after {
