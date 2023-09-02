@@ -198,6 +198,8 @@ body {
   background-color: var(--hero-bgcolor);
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/background/office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--hero-title-color);
   text-align: center;
   padding-top: 188px;
@@ -273,6 +275,11 @@ body {
 
   /* align-items: center; */
 }
+.benefits-icon {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  padding: 24px 100px;
+}
 
 .benefits-list {
   display: flex;
@@ -288,6 +295,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 8px;
   margin-bottom: 8px;
   color: var(--benefits-list-title-color);
 }
