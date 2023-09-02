@@ -154,7 +154,7 @@ body {
   padding: 24px 0;
 }
 
-.menu-list-item:nth-child(1)::after {
+.menu-list-item::after {
   content: '';
   display: block;
   position: absolute;
