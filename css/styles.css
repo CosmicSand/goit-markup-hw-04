@@ -145,6 +145,11 @@ body {
   gap: 40px;
 }
 .menu-list-item {
+  /* position: relative; */
+  padding: 24px 0;
+}
+
+.menu-list-item:nth-child(1) {
   position: relative;
   padding: 24px 0;
 }
