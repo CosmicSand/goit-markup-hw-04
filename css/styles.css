@@ -290,10 +290,14 @@ body {
 
 .benefits-container {
   display: flex;
-
-  /* align-items: center; */
 }
+
 .benefits-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -312,7 +316,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 8px;
+  /* margin-top: 8px; */
   margin-bottom: 8px;
   color: var(--benefits-list-title-color);
 }
