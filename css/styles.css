@@ -22,6 +22,7 @@
   --foot-logo-part-color: #f4f4fd;
   --foot-text-color: #ffffff;
   --icons-color: #f4f4fd;
+  --hover-team-link-icon-color: #404bbf;
   --hover-social-link-icon-color: #31d0aa;
   --social-link-icon-bgcolor: #4d5ae5;
   --overlay-bgcolor: #4d5ae5;
@@ -403,7 +404,7 @@ body {
 
 .team-social-link:hover,
 .team-social-link:focus {
-  background-color: var(--hover-social-link-icon-color);
+  background-color: var(--hover-team-link-icon-color);
 }
 /* Секція portfolio */
 
