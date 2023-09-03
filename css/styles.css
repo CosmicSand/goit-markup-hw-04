@@ -20,7 +20,7 @@
   --team-member-bgcolor: #fff;
   --page-footer-bgcolor: #2e2f42;
   --foot-logo-part-color: #f4f4fd;
-  --foot-text-color: #f4f4fd;
+  --foot-text-color: #ffffff;
   --icons-color: #f4f4fd;
   --hover-social-link-icon-color: #31d0aa;
   --social-link-icon-bgcolor: #404bbf;
@@ -527,6 +527,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--foot-text-color);
   line-height: 1.5;
+  margin-bottom: 16px;
 }
 
 .footer-social-conteiner {
