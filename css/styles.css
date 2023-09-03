@@ -154,7 +154,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* padding: 24px 0;  */
+  padding: 24px 0;
 }
 
 .menu-list-link:hover,
@@ -212,7 +212,6 @@ body {
 /* Кнопка. Зміна розміру шрифта, його ваги, кольору. Зміна фонового кольору. Задання розміру кнопки та ефектів hover/focus */
 
 .hero {
-  border: 3px solid teal;
   background-color: var(--hero-bgcolor);
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/background/office.jpg);
@@ -284,7 +283,6 @@ body {
 }
 
 .benefits {
-  border: 2px dashed tomato;
   padding-top: 120px;
   padding-bottom: 120px;
 }
