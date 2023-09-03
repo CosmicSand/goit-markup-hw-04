@@ -166,7 +166,7 @@ body {
   color: #404bbf; /* Зміна кольору першого посилання */
 }
 
-.menu-list-item:nth-child(1) {
+.menu-list-item:nth-child(2) {
   position: relative;
 }
 
