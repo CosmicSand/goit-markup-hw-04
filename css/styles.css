@@ -163,7 +163,6 @@ body {
 }
 
 .menu-list-item:nth-child(1) .menu-list-link {
-  position: relative;
   color: #404bbf; /* Зміна кольору першого посилання */
 }
 
@@ -171,7 +170,7 @@ body {
   position: relative;
 }
 
-.menu-list-item::after {
+.menu-list-link::after {
   content: '';
   display: block;
   position: absolute;
@@ -212,6 +211,7 @@ body {
 /* Кнопка. Зміна розміру шрифта, його ваги, кольору. Зміна фонового кольору. Задання розміру кнопки та ефектів hover/focus */
 
 .hero {
+  border: 3px solid teal;
   background-color: var(--hero-bgcolor);
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/background/office.jpg);
@@ -283,13 +283,13 @@ body {
 }
 
 .benefits {
+  border: 2px dashed tomato;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .benefits-container {
   display: flex;
-  justify-content: space-between;
 
   /* align-items: center; */
 }
@@ -302,8 +302,6 @@ body {
 
 .benefits-list {
   display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
   gap: 24px;
 }
 .benefits-list-item {
@@ -326,7 +324,6 @@ body {
 /* Секція Team. Змінили фон секції, виправілі після цього фон комірок на білий та задали їх ширину. Текст вирівняли по центру як заголовка секції так і всередині комірок */
 
 .team {
-  /* width: 1440px; */
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--team-bgcolor);
@@ -541,6 +538,7 @@ body {
 
 .footer-text-social {
   font-weight: 500;
+  color: var(--foot-text-color);
 }
 
 .footer-social-list {
