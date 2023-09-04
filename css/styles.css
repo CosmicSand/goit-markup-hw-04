@@ -1,5 +1,5 @@
 :root {
-  --body-bgcolor: #fff;
+  --white: #fff; /* body-bgcolor, hero-title-color, hero-button-text-color, team-member-bgcolor, foot-logo-part-color, foot-text-color */
 
   --slate: #434455; /* body text color, contact-list-link-color, team-portfolio-text-color, page-footer-text-color */
 
@@ -7,19 +7,13 @@
 
   --ocean: #404bbf; /* logo-hover, underline in header, menu-list-link hover color, contact-list-link-hover-color, hero-button-hover, team social link hover color, hover-team-link-icon-color */
 
-  --logo-second-half-color: #2e2f42;
-  --menu-list-link-color: #2e2f42;
- 
-  --hero-bgcolor: #2e2f42;
-  --hero-title-color: #fff;
-  --hero-button-text-color: #fff
-  --benefits-list-title-color: #2e2f42;
+  --navy-blue: #2e2f42; /* menu-list-link-color, page-footer-bgcolor, logo-second-half-color, hero-bgcolor, benefits-list-title-color, team-portfolio-text-color, page-footer-bgcolor */
+
+  --cloud: #f4f4fd; /* team-bgcolor, foot-logo-part-color, overlay-text-color */
+
   --team-bgcolor: #f4f4fd;
-  --team-portfolio-text-color: #2e2f42;
-  --team-member-bgcolor: #fff;
-  --page-footer-bgcolor: #2e2f42;
+
   --foot-logo-part-color: #f4f4fd;
-  --foot-text-color: #ffffff;
   --icons-color: #f4f4fd;
   --hover-social-link-icon-color: #31d0aa;
   --overlay-text-color: #f4f4fd;
@@ -88,14 +82,14 @@ button {
 body {
   font-family: var(--body-font-family);
   color: var(--slate);
-  background-color: var(--body-bgcolor);
+  background-color: var(--white);
 }
 
 /* Header. Вибір шріфта, його ваги, розміру, коліру та ефекти hover/focus для посилання WebStudio. Зміна кольору слова Web. Задання вертикального розміру, так як задаються внутрішні вертикальні відступи. Рамка товщіною 1 піксел та нижній зовнішній відступ */
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  margin-bottom: 2px;
+  /* margin-bottom: 2px; */
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
   /* padding-top: 24px;
@@ -114,7 +108,7 @@ body {
 }
 
 .logo-head {
-  color: var(--logo-second-half-color);
+  color: var(--navy-blue);
 }
 
 .head-logo:hover,
@@ -147,7 +141,7 @@ body {
 
 .menu-list-link {
   font-weight: 500;
-  color: var(--menu-list-link-color);
+  color: var(--navy-blue);
   line-height: 1.5;
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -209,13 +203,12 @@ body {
 /* Кнопка. Зміна розміру шрифта, його ваги, кольору. Зміна фонового кольору. Задання розміру кнопки та ефектів hover/focus */
 
 .hero {
-  background-color: var(--hero-bgcolor);
+  background-color: var(--navy-blue);
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/background/office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: var(--hero-title-color);
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -232,7 +225,7 @@ body {
 }
 
 .hero-title {
-  color: var(--hero-title-color);
+  color: var(--white);
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -248,7 +241,7 @@ body {
   margin-right: auto;
   font-weight: 500;
   font-size: 16px;
-  color: var(--hero-button-text-color);
+  color: var(--white);
   background-color: var(--iris);
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -318,7 +311,7 @@ body {
   letter-spacing: 0.02em;
   /* margin-top: 8px; */
   margin-bottom: 8px;
-  color: var(--benefits-list-title-color);
+  color: var(--navy-blue);
 }
 .benefits-list-text {
   line-height: 1.5;
@@ -330,7 +323,7 @@ body {
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: var(--team-bgcolor);
+  background-color: var(--cloud);
 }
 .team-align {
   flex-direction: column;
@@ -342,7 +335,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--team-portfolio-text-color);
+  color: var(--navy-blue);
   margin-bottom: 72px;
 }
 
@@ -355,7 +348,7 @@ body {
 
 .team-member {
   width: calc((100% - 72px) / 4);
-  background-color: var(--team-member-bgcolor);
+  background-color: var(--white);
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -436,7 +429,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--team-portfolio-text-color);
+  color: var(--navy-blue);
   margin-bottom: 72px;
 }
 
@@ -454,7 +447,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--team-portfolio-text-color);
+  color: var(--navy-blue);
   margin-bottom: 8px;
   text-align: left;
 }
@@ -496,7 +489,7 @@ body {
 /* Footer. Змінено фон, колір лого та розмір його шрифту. Додані hover/focus */
 
 .page-footer {
-  background-color: var(--page-footer-bgcolor);
+  background-color: var(--navy-blue);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -531,13 +524,13 @@ body {
 }
 
 .logo-part {
-  color: var(--foot-logo-part-color);
+  color: var(--cloud);
 }
 
 .foot-text {
   max-width: 264px;
   letter-spacing: 0.02em;
-  color: var(--foot-text-color);
+  color: var(--white);
   line-height: 1.5;
   margin-bottom: 16px;
 }
@@ -571,7 +564,7 @@ body {
   /* width: 40px;
   height: 40px; */
   border-radius: 50%;
-  background-color: var(--social-link-icon-bgcolor);
+  background-color: var(--iris);
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
