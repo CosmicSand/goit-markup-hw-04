@@ -9,14 +9,10 @@
 
   --navy-blue: #2e2f42; /* menu-list-link-color, page-footer-bgcolor, logo-second-half-color, hero-bgcolor, benefits-list-title-color, team-portfolio-text-color, page-footer-bgcolor */
 
-  --cloud: #f4f4fd; /* team-bgcolor, foot-logo-part-color, overlay-text-color */
+  --cloud: #f4f4fd; /* team-bgcolor, foot-logo-part-color, overlay-text-color, icons-color?? */
 
-  --team-bgcolor: #f4f4fd;
+  --green: #31d0aa; /* hover-social-link-icon-color in footer*/
 
-  --foot-logo-part-color: #f4f4fd;
-  --icons-color: #f4f4fd;
-  --hover-social-link-icon-color: #31d0aa;
-  --overlay-text-color: #f4f4fd;
   --body-font-family: 'Roboto', sans-serif;
   --logo-font-family: 'Raleway', sans-serif;
 }
@@ -384,7 +380,7 @@ body {
 }
 
 .team-svg {
-  fill: var(--icons-color);
+  fill: var(--cloud);
 }
 
 .team-social-link {
@@ -544,7 +540,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  color: var(--foot-text-color);
+  color: var(--slate);
 }
 
 .footer-social-list {
@@ -574,9 +570,9 @@ body {
 
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
-  background-color: var(--hover-social-link-icon-color);
+  background-color: var(--green);
 }
 
 .footer-svg {
-  fill: var(--icons-color);
+  fill: var(--cloud);
 }
