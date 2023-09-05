@@ -511,14 +511,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   font-size: 18px;
-  color: var(--logo-color);
+  color: var(--iris);
   margin-bottom: 16px;
 }
 
-.foot-logo:hover,
+/* .foot-logo:hover,
 .foot-logo:focus {
   color: var(--ocean);
-}
+} */
 
 .logo-part {
   color: var(--cloud);
@@ -541,7 +541,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  color: var(--slate);
+  color: var(--white);
 }
 
 .footer-social-list {
