@@ -130,6 +130,7 @@ body {
 .menu-list {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 .menu-list-item {
   padding: 24px 0;
