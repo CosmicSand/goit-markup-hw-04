@@ -1,7 +1,7 @@
 :root {
   --white: #fff; /* body-bgcolor, hero-title-color, hero-button-text-color, team-member-bgcolor, foot-logo-part-color, foot-text-color */
 
-  --cloud: #f4f4fd; /* team-bgcolor, foot-logo-part-color, overlay-text-color, icons-color */
+  --cloud: #f4f4fd; /* team-bgcolor, benefits-icon-bgcolor, foot-logo-part-color, overlay-text-color, icons-color */
 
   --slate: #434455; /* body text color, contact-list-link-color, team-portfolio-text-color, page-footer-text-color */
 
@@ -288,7 +288,7 @@ body {
   justify-content: center;
   height: 112px;
   margin-bottom: 8px;
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
   border: 1px solid #8e8f99;
   border-radius: 4px;
   padding: 24px 100px;
@@ -400,6 +400,7 @@ body {
 .team-social-link:focus {
   background-color: var(--ocean);
 }
+
 /* Секція portfolio */
 
 .portfolio {
